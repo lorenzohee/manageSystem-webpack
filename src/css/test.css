@@ -1,0 +1,7 @@
+html, body{
+  background: #dfdfdf;
+}
+#root{
+	background: green;
+	color: red;
+}

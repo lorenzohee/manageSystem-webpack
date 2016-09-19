@@ -1,0 +1,41 @@
+{
+  "name": "no-page",
+  "version": "1.0.0",
+  "description": "no page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress --profile --colors --config webpack.production.config.js"
+  },
+  "author": "Lorenzo ho",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.25.0",
+    "datatables-bootstrap3-plugin": "^0.5.0",
+    "json-loader": "^0.5.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "handlebars-loader": "^1.4.0",
+    "jquery": "^3.1.0",
+    "node-sass": "^3.10.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack-dev-server": "^1.16.0"
+  }
+}
